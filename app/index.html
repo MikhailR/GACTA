@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="">
+	<meta name="keywords" content="">
+  <title>GACTA - Home Page</title>
+
+  <link rel="stylesheet" href="css/libs.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container">
+        <!-- Top block with Logo + Menu -->
+        <div class="header__top">
+          <a class="header__logo" href="./index.html">
+            <img src="./images/logo.svg" alt="Logo">
+          </a>
+          <div class="header__info">
+            <div class="header__actions" id="header-actions">
+              <a class="header__signin-link" href="#">Sign-In</a>
+              <a class="header__contact-link button secondary-button" href="#">Contact Us</a>
+            </div>
+
+            <nav class="header__navigation-wrap" id="header-navigation">
+              <div class="header__navigation" id="header-menu">
+                <ul class="header__menu" id="menu-list">                   
+                  <li class="header__menu-item subitem" tabindex="0">
+                    <a class="header__menu-link" href="./membership.html">Membership</a>
+                    <button class="header__menu-arrow" type="button"></button>
+                    <div class="header__submenu submenu">
+                      <ul class="submenu__list">
+                        <li class="submenu__list-item">
+                          <a class="submenu__list-link" href="#">This is a nav link</a>
+                        </li>
+                        <li class="submenu__list-item">
+                          <a class="submenu__list-link" href="#">This is a nav link</a>
+                        </li>
+                        <li class="submenu__list-item">
+                          <a class="submenu__list-link" href="#">This is a nav link</a>
+                        </li>
+                        <li class="submenu__list-item">
+                          <a class="submenu__list-link" href="#">This is a nav link</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="header__menu-item">
+                    <a class="header__menu-link" href="./events-calendar.html">Events Calendar</a>             
+                  </li>
+                  <li class="header__menu-item subitem" tabindex="0">
+                    <a class="header__menu-link" href="./resources.html">Resources</a>
+                    <button class="header__menu-arrow" type="button"></button>
+                    <div class="header__submenu submenu">
+                      <ul class="submenu__list">
+                        <li class="submenu__list-item">
+                          <a class="submenu__list-link" href="#">This is a nav link</a>
+                        </li>
+                        <li class="submenu__list-item">
+                          <a class="submenu__list-link" href="#">This is a nav link</a>
+                        </li>
+                        <li class="submenu__list-item">
+                          <a class="submenu__list-link" href="#">This is a nav link</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="header__menu-item subitem" tabindex="0">
+                    <a class="header__menu-link" href="./about.html">About GACTA</a>
+                    <button class="header__menu-arrow" type="button"></button>
+                    <div class="header__submenu submenu">
+                      <ul class="submenu__list">
+                        <li class="submenu__list-item">
+                          <a class="submenu__list-link" href="#">This is a nav link</a>
+                        </li>
+                        <li class="submenu__list-item">
+                          <a class="submenu__list-link" href="#">This is a nav link</a>
+                        </li>
+                        <li class="submenu__list-item">
+                          <a class="submenu__list-link" href="#">This is a nav link</a>
+                        </li>
+                        <li class="submenu__list-item">
+                          <a class="submenu__list-link" href="#">This is a nav link</a>
+                        </li>
+                        <li class="submenu__list-item">
+                          <a class="submenu__list-link" href="#">This is a nav link</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+
+        <!-- Bottom block with Burger -->
+        <div class="header__bottom" id="header-bottom">            
+          <button class="header__burger" id="header-burger" type="button" aria-label="Burger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <!-- Section "Top" -->
+      <section class="top">
+        <div class="top__bg">
+          <picture>
+            <source srcset="./images/home-page/top-image-mobile.jpg" media="(max-width: 576px)" />
+            <img src="./images/home-page/top-image.jpg" alt="Image">
+          </picture>
+        </div>
+        <div class="container">
+          <div class="top__inner">
+            <div class="top__content">
+              <h1 class="top__title main-title">h1 - The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.</h1>
+              <p class="top__text">body - The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.</p>
+              <a class="top__button button primary-button" href="#">button</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section with Information "About GACTA" -->
+      <section class="information section">
+        <div class="container">
+          <div class="information__inner">
+            <h2 class="information__title main-title">Header About Why GACTA Exists</h2>
+            <p class="information__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section "Journal" -->
+      <section class="journal section">
+        <div class="container">
+          <h2 class="journal__title main-title">GACTA Journal</h2>
+          <p class="journal__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+          <div class="journal__block">
+            <div class="journal__column">
+              <div class="journal__item">
+                <div class="journal__item-heading">
+                  <span class="journal__item-icon">
+                    <img src="./images/icons/icon-journal-document.svg" alt="Icon">
+                  </span>
+                  <p class="journal__item-title">Doc name lorum ipsum</p>
+                </div>
+                <div class="journal__item-row">
+                  <p class="journal__item-category">Author:</p>
+                  <p class="journal__item-info">FirstName LastName</p>
+                </div>
+                <div class="journal__item-row">
+                  <p class="journal__item-category">Organization:</p>
+                  <p class="journal__item-info">Organization Name</p>
+                </div>
+                <div class="journal__item-row">
+                  <p class="journal__item-category">Last Updated:</p>
+                  <p class="journal__item-info">dd Month YYYY</p>
+                </div>
+                <a class="journal__item-download button" href="./documents/test-document.pdf" download="download">Download</a>
+              </div>
+            </div>
+
+            <div class="journal__column">
+              <div class="journal__item">
+                <div class="journal__item-heading">
+                  <span class="journal__item-icon">
+                    <img src="./images/icons/icon-journal-document.svg" alt="Icon">
+                  </span>
+                  <p class="journal__item-title">Doc name lorum ipsum dolor officia deserunt mol litiae</p>
+                </div>
+                <div class="journal__item-row">
+                  <p class="journal__item-category">Author:</p>
+                  <p class="journal__item-info">FirstName LastName</p>
+                </div>
+                <div class="journal__item-row">
+                  <p class="journal__item-category">Organization:</p>
+                  <p class="journal__item-info">Organization Name</p>
+                </div>
+                <div class="journal__item-row">
+                  <p class="journal__item-category">Last Updated:</p>
+                  <p class="journal__item-info">dd Month YYYY</p>
+                </div>
+                <a class="journal__item-download button" href="./documents/test-document.pdf" download="download">Download</a>
+              </div>
+            </div>
+
+            <div class="journal__column">
+              <div class="journal__item">
+                <div class="journal__item-heading">
+                  <span class="journal__item-icon">
+                    <img src="./images/icons/icon-journal-document.svg" alt="Icon">
+                  </span>
+                  <p class="journal__item-title">Doc name lorum ipsum dolor officia dese runt mol litiae ipsum dolors lorum</p>
+                </div>
+                <div class="journal__item-row">
+                  <p class="journal__item-category">Author:</p>
+                  <p class="journal__item-info">FirstName LastName</p>
+                </div>
+                <div class="journal__item-row">
+                  <p class="journal__item-category">Organization:</p>
+                  <p class="journal__item-info">Organization Name</p>
+                </div>
+                <div class="journal__item-row">
+                  <p class="journal__item-category">Last Updated:</p>
+                  <p class="journal__item-info">dd Month YYYY</p>
+                </div>
+                <a class="journal__item-download button" href="./documents/test-document.pdf" download="download">Download</a>
+              </div>
+            </div>
+          </div>
+          <a class="journal__full-link button primary-button" href="#">See Full Journal</a>
+        </div>
+      </section>
+
+      <!-- Section with Information "Latest Bulletin" -->
+      <section class="information blue-bg section">
+        <div class="container">
+          <div class="information__inner">
+            <h2 class="information__title main-title">Latest GACTA Bulletin</h2>
+            <h3 class="information__secondary-title big-title">Bulletin Header</h3>
+            <p class="information__text">dd Month YYYY</p>
+            <p class="information__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+            <div class="information__actions">
+              <a class="information__link full-bulletins button primary-button" href="#">See Full Bulletins</a>
+              <a class="information__link all-bulletins button" href="#">See All Bulletins</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section with description "Discussion board" -->
+      <section class="description section">
+        <div class="container">
+          <div class="description__block">
+            <div class="description__image">
+              <picture>
+                <source srcset="./images/home-page/description-image-mobile.jpg" media="(max-width: 576px)" />
+                <img src="./images/home-page/description-image.jpg" alt="Image">
+              </picture>              
+            </div>
+            <div class="description__info">
+              <h2 class="description__title main-title">Discussion Board</h2>
+              <p class="description__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et haru omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et epellat.</p>
+              <a class="description__link button primary-button" href="#">Join the Conversation</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section "Events" -->
+      <section class="events section">
+        <div class="container">
+          <h2 class="events__title main-title">Upcoming Events</h2>
+          <p class="events__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sundis doloribus asperiores repellat.</p>
+          <div class="events__slider-block">
+            <div class="events__slider swiper">
+              <div class="events__slider-wrapper swiper-wrapper">
+                <div class="events__slide swiper-slide">
+                  <div class="events__slide-heading">
+                    <span class="events__slide-icon">
+                      <img src="./images/icons/icon-event-slide.svg" alt="Icon">
+                    </span>
+                    <p class="events__slide-title">Event Name 1</p>
+                  </div>
+                  <div class="events__slide-content">
+                    <div class="events__slide-info">
+                      <div class="events__slide-row">
+                        <p class="events__slide-category">Date(s):</p>
+                        <p class="events__slide-data">MMM DD, YYYY -  MMM DD, YYYY </p>
+                      </div>
+                      <div class="events__slide-row">
+                        <p class="events__slide-category">Organizer:</p>
+                        <p class="events__slide-data">Organization Name</p>
+                      </div>
+                      <div class="events__slide-row">
+                        <p class="events__slide-category">Where:</p>
+                        <p class="events__slide-data">Venue Name</p>
+                      </div>
+                      <div class="events__slide-row">
+                        <p class="events__slide-category">Location:</p>
+                        <p class="events__slide-data">Location Details</p>
+                      </div>
+                    </div>
+                    <div class="events__slide-description">
+                      <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sundis doloribus asperiores repellat.</p>
+                    </div>
+                  </div>
+                  <a class="events__slide-link button" href="#">Find Out More</a>
+                </div>
+
+                <div class="events__slide swiper-slide">
+                  <div class="events__slide-heading">
+                    <span class="events__slide-icon">
+                      <img src="./images/icons/icon-event-slide.svg" alt="Icon">
+                    </span>
+                    <p class="events__slide-title">Event Name 22</p>
+                  </div>
+                  <div class="events__slide-content">
+                    <div class="events__slide-info">
+                      <div class="events__slide-row">
+                        <p class="events__slide-category">Date(s):</p>
+                        <p class="events__slide-data">MMM DD, YYYY -  MMM DD, YYYY </p>
+                      </div>
+                      <div class="events__slide-row">
+                        <p class="events__slide-category">Organizer:</p>
+                        <p class="events__slide-data">Organization Name</p>
+                      </div>
+                      <div class="events__slide-row">
+                        <p class="events__slide-category">Where:</p>
+                        <p class="events__slide-data">Venue Name</p>
+                      </div>
+                      <div class="events__slide-row">
+                        <p class="events__slide-category">Location:</p>
+                        <p class="events__slide-data">Location Details</p>
+                      </div>
+                    </div>
+                    <div class="events__slide-description">
+                      <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sundis doloribus asperiores repellat.</p>
+                    </div>
+                  </div>
+                  <a class="events__slide-link button" href="#">Find Out More</a>
+                </div>
+
+                <div class="events__slide swiper-slide">
+                  <div class="events__slide-heading">
+                    <span class="events__slide-icon">
+                      <img src="./images/icons/icon-event-slide.svg" alt="Icon">
+                    </span>
+                    <p class="events__slide-title">Event Name 333</p>
+                  </div>
+                  <div class="events__slide-content">
+                    <div class="events__slide-info">
+                      <div class="events__slide-row">
+                        <p class="events__slide-category">Date(s):</p>
+                        <p class="events__slide-data">MMM DD, YYYY -  MMM DD, YYYY </p>
+                      </div>
+                      <div class="events__slide-row">
+                        <p class="events__slide-category">Organizer:</p>
+                        <p class="events__slide-data">Organization Name</p>
+                      </div>
+                      <div class="events__slide-row">
+                        <p class="events__slide-category">Where:</p>
+                        <p class="events__slide-data">Venue Name</p>
+                      </div>
+                      <div class="events__slide-row">
+                        <p class="events__slide-category">Location:</p>
+                        <p class="events__slide-data">Location Details</p>
+                      </div>
+                    </div>
+                    <div class="events__slide-description">
+                      <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sundis doloribus asperiores repellat.</p>
+                    </div>
+                  </div>
+                  <a class="events__slide-link button" href="#">Find Out More</a>
+                </div>
+              </div>
+
+              <!-- pagination -->
+              <div class="events__slider-pagination swiper-pagination"></div>
+            
+              <!-- navigation buttons -->
+              <div class="events__slider-arrow swiper-button-prev"></div>
+              <div class="events__slider-arrow swiper-button-next"></div>
+            </div>
+          </div>
+
+          <a class="events__full-link button primary-button" href="#">See Full Journal</a>
+        </div>
+      </section>
+
+      <!-- Section "Benefits" -->
+      <section class="benefits section">
+        <div class="container">
+          <h2 class="benefits__title main-title">Benefits of Membership</h2>
+          <p class="benefits__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. </p>
+          <div class="benefits__block">
+            <div class="benefits__column">
+              <div class="benefits__item">
+                <div class="benefits__item-image">
+                  <picture>
+                    <source srcset="./images/home-page/benefits-item1-image.webp"  type="image/webp">
+                    <img src="./images/home-page/benefits-item1-image.jpg" alt="Benefit image">
+                  </picture>                  
+                </div>
+                <h3 class="benefits__item-title medium-title">Network of Professionals</h3>
+                <span class="benefits__item-decor"></span>
+                <p class="benefits__item-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quase.</p>
+              </div>
+            </div>
+
+            <div class="benefits__column">
+              <div class="benefits__item">
+                <div class="benefits__item-image">
+                  <picture>
+                    <source srcset="./images/home-page/benefits-item2-image.webp"  type="image/webp">
+                    <img src="./images/home-page/benefits-item2-image.jpg" alt="Benefit image">
+                  </picture>                  
+                </div>
+                <h3 class="benefits__item-title medium-title">Access to Content</h3>
+                <span class="benefits__item-decor"></span>
+                <p class="benefits__item-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.</p>
+              </div>
+            </div>
+
+            <div class="benefits__column">
+              <div class="benefits__item">
+                <div class="benefits__item-image">
+                  <picture>
+                    <source srcset="./images/home-page/benefits-item3-image.webp"  type="image/webp">
+                    <img src="./images/home-page/benefits-item3-image.jpg" alt="Benefit image">
+                  </picture>                  
+                </div>
+                <h3 class="benefits__item-title medium-title">Education</h3>
+                <span class="benefits__item-decor"></span>
+                <p class="benefits__item-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quase.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="benefits__actions">
+            <a class="benefits__sign-link button primary-button" href="#">Sign In</a>
+            <a class="benefits__member-link button" href="#">Become a  Member</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section "Online learning" -->
+      <section class="learning section">
+        <div class="container">
+          <h2 class="learning__title main-title">Online Learning</h2>
+          <p class="learning__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
+          <div class="learning__slider-block">
+            <div class="learning__slider swiper">
+              <div class="learning__slider-wrapper swiper-wrapper">
+                <div class="learning__slide swiper-slide">
+                  <div class="learning__slide-heading">
+                    <span class="learning__slide-icon">
+                      <img src="./images/icons/icon-learning-slide.svg" alt="Icon">
+                    </span>
+                    <p class="learning__slide-title">Course Name Quibusdam Et Aut Officiis Debitis</p>
+                  </div>
+                  <p class="learning__slide-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quase.</p>
+                  <a class="learning__slide-link button" href="#">Find Out More</a>
+                </div>
+
+                <div class="learning__slide swiper-slide">
+                  <div class="learning__slide-heading">
+                    <span class="learning__slide-icon">
+                      <img src="./images/icons/icon-learning-slide.svg" alt="Icon">
+                    </span>
+                    <p class="learning__slide-title">Course Name Quibusdam Et Aut Officiis Debitis</p>
+                  </div>
+                  <p class="learning__slide-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quase.</p>
+                  <a class="learning__slide-link button" href="#">Find Out More</a>
+                </div>
+
+                <div class="learning__slide swiper-slide">
+                  <div class="learning__slide-heading">
+                    <span class="learning__slide-icon">
+                      <img src="./images/icons/icon-learning-slide.svg" alt="Icon">
+                    </span>
+                    <p class="learning__slide-title">Course Name Quibusdam Et Aut Officiis Debitis</p>
+                  </div>
+                  <p class="learning__slide-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quase.</p>
+                  <a class="learning__slide-link button" href="#">Find Out More</a>
+                </div>
+
+                <div class="learning__slide swiper-slide">
+                  <div class="learning__slide-heading">
+                    <span class="learning__slide-icon">
+                      <img src="./images/icons/icon-learning-slide.svg" alt="Icon">
+                    </span>
+                    <p class="learning__slide-title">Course Name Quibusdam Et Aut Officiis Debitis</p>
+                  </div>
+                  <p class="learning__slide-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quase.</p>
+                  <a class="learning__slide-link button" href="#">Find Out More</a>
+                </div>
+
+                <div class="learning__slide swiper-slide">
+                  <div class="learning__slide-heading">
+                    <span class="learning__slide-icon">
+                      <img src="./images/icons/icon-learning-slide.svg" alt="Icon">
+                    </span>
+                    <p class="learning__slide-title">Course Name Quibusdam Et Aut Officiis Debitis</p>
+                  </div>
+                  <p class="learning__slide-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quase.</p>
+                  <a class="learning__slide-link button" href="#">Find Out More</a>
+                </div>
+              </div>
+
+              <!-- pagination -->
+              <div class="learning__slider-pagination swiper-pagination"></div>
+            
+              <!-- navigation buttons -->
+              <div class="learning__slider-arrow swiper-button-prev"></div>
+              <div class="learning__slider-arrow swiper-button-next"></div>
+            </div>
+          </div>
+
+          <a class="learning__all-link button primary-button" href="#">See All Learning Opportunities</a>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__top">
+          <a class="footer__logo" href="./index.html">
+            <img src="./images/logo.svg" alt="Logo">
+          </a>
+          <p class="footer__address">
+            <span>Adress 1 Suntne Culpa Officia</span>
+            <span>Suite 100</span>
+            <span>City PR L8A-7B7 Country</span>
+          </p>
+          <ul class="footer__socials socials">
+            <li class="socials__item">
+              <a class="socials__link fb" href="#" target="_blank">
+                <img src="./images/icons/social-facebook-icon.svg" alt="Facebook icon">
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__middle">
+          <p class="footer__copyright">© Copyright 2024 GACTA. All Rights Reserved.</p>
+          <ul class="footer__policies-list">
+            <li class="footer__policies-item">
+              <a class="footer__policies-link" href="#">Terms of use</a>
+            </li>
+            <li class="footer__policies-item">
+              <a class="footer__policies-link" href="#">Privacy Policy</a>
+            </li>
+            <li class="footer__policies-item">
+              <a class="footer__policies-link" href="#">Cookies Policy</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__bottom">
+          <a class="footer__company-logo" href="#">
+            <img src="./images/MAWAZO-logo.svg" alt="MAWAZO logo">
+          </a>
+        </div>
+      </div>
+    </footer>
+  </div>
+  
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

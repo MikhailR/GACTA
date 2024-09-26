@@ -1,0 +1,17 @@
+@import 'base/fonts';
+@import 'base/reset';
+@import 'base/colors';
+@import 'base/breakpoints';
+@import 'base/init';
+@import 'base/typographic';
+
+// Home Page
+@import 'components/header';
+@import 'components/top';
+@import 'components/information';
+@import 'components/journal';
+@import 'components/description';
+@import 'components/events';
+@import 'components/benefits';
+@import 'components/learning';
+@import 'components/footer';

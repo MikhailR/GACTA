@@ -1,0 +1,26 @@
+.information {
+  &.blue-bg {
+    background-color: $blue-extralight3;
+  }
+  &__inner {
+    max-width: 1040px;
+    margin: 0 auto;
+  }
+  &__title {}
+  &__secondary-title {
+    margin-top: 20px;
+  }
+  &__text {
+    margin-top: 20px;
+  }
+  &__actions {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+	&__link {
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+}

@@ -1,0 +1,89 @@
+.journal {
+  &__title {}
+  &__text {
+    margin-top: 20px;
+  }
+  &__block {
+    margin: 20px -10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    @media (max-width: $size-m) {
+      justify-content: center;
+    }
+  }
+  &__column {
+    width: 33.333%;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    @media (max-width: $size-l) {
+      width: 50%;
+    }
+    @media (max-width: $size-m) {
+      width: 100%;
+      max-width: 500px;
+    }
+  }
+  &__item {
+    height: 100%;
+    border-radius: 8px;
+    background-color: $light;
+    padding: 20px 40px 40px;
+    @media (max-width: $size-xs) {
+      padding: 20px;
+    }
+  }
+  &__item-heading {
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  &__item-icon {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 8px;
+    background-color: $blue-extralight1;
+    img {
+      display: block;
+      width: 24px;
+      height: auto;
+    }
+  }
+  &__item-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.11;
+  }
+  &__item-row {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: flex-start;
+    @media (max-width: $size-xs) {
+      flex-wrap: wrap;
+    }
+  }
+  &__item-category {
+    flex-shrink: 0;
+    width: 123px;
+    padding-right: 10px;
+    @media (max-width: $size-xs) {
+      flex-shrink: 1;
+      width: 100%;
+      padding-right: 0;
+    }
+  }
+  &__item-info {
+    word-break: break-word;
+  }
+  &__item-download {
+    margin-top: 29px;
+  }
+  &__full-link {
+    margin: 0 auto;
+  }
+}

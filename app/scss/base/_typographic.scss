@@ -1,0 +1,123 @@
+body {
+  background-color: $white;
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+	font-size: 15px;
+	line-height: 1.6;
+  color: $text;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.167;
+}
+
+h1, .main-title {
+  font-size: 24px;
+}
+
+h2, .big-title {
+  font-size: 20px;
+  line-height: 1.15;
+}
+
+h3, .medium-title {
+  font-size: 18px;
+}
+
+h4, .small-title {
+  font-size: 16px;
+}
+
+h5, .litle-title {
+  font-size: 15px;
+}
+
+h6, .micro-title {
+  font-size: 15px;
+}
+
+// ul {
+//   list-style: none;
+//   li {
+//     padding-left: 27px;
+//     margin-bottom: 10px;
+//     position: relative;
+//     &::before {
+//       content: '';
+//       width: 7px;
+//       height: 7px;
+//       border-radius: 50%;
+//       background-color: $blue;
+//       position: absolute;
+//       left: 12px;
+//       top: 13px;
+//     }
+//     @media (max-width: $size-l) {
+//       padding-left: 21px;
+//       &::before {
+//         width: 5px;
+//         height: 5px;
+//         left: 9px;
+//         top: 11px;
+//       }
+//     }
+//     @media (max-width: $size-m) {
+//       &::before {
+//         top: 10px;
+//       }
+//     }
+//     @media (max-width: $size-m) {
+//       &::before {
+//         top: 9px;
+//       }
+//     }
+//   }
+// }
+
+// ol {
+//   list-style: none;
+//   counter-reset: item;
+//   li {
+//     padding-left: 36px;
+//     position: relative;
+//     margin-bottom: 10px;
+//     @media (max-width: $size-m) {
+//       padding-left: 22px;
+//       &::before {
+//         left: 2px;
+//       }
+//     }
+//     &::before {
+//       content: counter(item) '. ';
+//       counter-increment: item;
+//       font-weight: 700;
+//       font-size: 21px;
+//       position: absolute;
+//       left: 12px;
+//       top: 1px;      
+//     }
+//     @media (max-width: $size-l) {
+//       padding-left: 25px;
+//       &::before {
+//         font-size: 17px;
+//         left: 8px;
+//         top: 2px;
+//       }
+//     }
+//     @media (max-width: $size-m) {
+//       &::before {
+//         font-size: 15px;
+//         left: 7px;
+//         top: 1px;
+//       }
+//     }
+//     @media (max-width: $size-s) {
+//       &::before {
+//         font-size: 13px;
+//         left: 8px;
+//         top: 2px;
+//       }
+//     }
+//   }
+// }

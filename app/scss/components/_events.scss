@@ -1,0 +1,144 @@
+.events {
+  &__title {}
+  &__text {
+    margin-top: 20px;
+  }
+  &__slider-block {
+    max-width: 900px;
+    margin: 20px auto 0;
+  }
+  &__slider {
+    margin-left: 76px;
+    margin-right: 76px;
+    @media (max-width: $size-l) {
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+    @media (max-width: $size-m) {
+      margin: 0;
+    }
+  }
+	&__slider-wrapper {}
+	&__slide {
+    width: 100%;
+    border-radius: 8px;
+    background-color: $light;
+    padding: 20px 40px 40px;
+    @media (max-width: $size-xs) {
+      padding: 20px 20px 30px;
+    }
+  }
+	&__slide-heading {
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+  }
+	&__slide-icon {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 8px;
+    background-color: $blue-extralight1;
+    img {
+      display: block;
+      width: 24px;
+      height: auto;
+    }
+  }
+	&__slide-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.11;
+  }
+	&__slide-content {
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: $size-s) {
+      flex-wrap: wrap;
+    }
+  }
+	&__slide-info {
+    width: 302px;
+    margin-right: 20px;
+    @media (max-width: $size-s) {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 23px;
+    }
+  }
+	&__slide-row {
+    display: flex;
+    align-items: flex-start;
+    padding: 8px 0 7px;
+    border-bottom: 1px solid $black;
+    &:last-of-type {
+      border-bottom: 0;
+    }
+  }
+	&__slide-category {
+    flex-shrink: 0;
+    width: 83px;
+    padding-right: 10px;
+  }
+	&__slide-data {}
+	&__slide-description {
+    width: 328px;
+    padding-top: 8px;
+    p {
+      & + p {
+        margin-top: 15px;
+      }
+    }
+    @media (max-width: $size-s) {
+      width: 100%;
+    }
+  }
+	&__slide-link {
+    margin: 28px auto 0;
+  }
+	&__slider-arrow {}
+  &__slider-pagination {
+    display: none;
+    @media (max-width: $size-m) {
+      display: flex;
+    }
+  }
+	&__full-link {
+    margin: 20px auto 0;
+    @media (max-width: $size-m) {
+      margin-top: 10px;
+    }
+  }
+
+  .swiper {
+  }
+  .swiper-wrapper {
+  }
+  .swiper-slide {
+  }
+  .button {
+  }
+  .swiper-button-prev {
+    left: -76px;
+    @media (max-width: $size-l) {
+      left: -40px;
+    }
+    @media (max-width: $size-m) {
+      display: none;
+    }
+  }
+  .swiper-button-next {
+    right: -76px;
+    @media (max-width: $size-l) {
+      right: -40px;
+    }
+    @media (max-width: $size-m) {
+      display: none;
+    }
+  }
+  .swiper-pagination {}
+}

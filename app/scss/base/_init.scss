@@ -1,0 +1,174 @@
+.wrapper {
+	min-height: 100vh;
+	width: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+.main {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.container {
+	max-width: 1300px;
+	padding: 0 30px;
+	margin: 0 auto;
+	@media (max-width: $size-xs) {
+		padding: 0 15px;
+	}
+}
+
+.button {
+	display: flex;
+	width: fit-content;
+	height: 42px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 6px;
+	padding: 12px 20px;
+	box-shadow: inset 0 0 0 2px $blue-light;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 18px;
+	color: #007BC2;
+	text-align: center;
+	transition: all 0.3s;
+	&.disabled {
+		box-shadow: inset 0 0 0 2px #B9D9EC;
+		pointer-events: none;
+		color: #B9D9EC;
+	}
+	@media (min-width: 993px) {
+		&:hover, &:focus {
+			box-shadow: inset 0 0 0 2px $blue;
+		}
+	}
+	&.secondary-button {
+		background-color: $orange;
+		box-shadow: none !important;
+		color: $white;
+		&.disabled {
+			background-color: #FDAB92;
+			pointer-events: none;
+		}
+		@media (min-width: 993px) {
+			&:hover, &:focus {
+				background-color: #FA6132;
+			}
+		}
+	}
+	&.primary-button {
+		background-color: $blue-light;
+		box-shadow: none !important;
+		color: $white;
+		&.disabled {
+			background-color: #B9D9EC;
+			pointer-events: none;
+		}
+		@media (min-width: 993px) {
+			&:hover, &:focus {
+				background-color: $blue;
+			}
+		}
+	}
+}
+
+.section {
+	padding: 40px 0;
+	@media (max-width: $size-s) {
+		padding: 20px 0;
+	}
+}
+
+
+.swiper {
+	position: relative;
+	&-button-prev, &-button-next {
+		width: 36px;
+    height: 36px;
+		border-radius: 50%;
+		background: url('../images/icons/icon-arrow-left-lightblue.svg') left 10px center / 13px auto no-repeat;
+    z-index: 3;
+		top: 51%;
+    transition: background 0.3s;
+		&::after {
+			display: none;
+    }
+		@media (min-width: 993px) {
+      &:hover, &:focus {
+				background-color: $blue;
+        background-image: url('../images/icons/icon-arrow-left-white.svg');
+      }
+    }
+	}
+	&-button-prev {
+		left: -60px;
+    @media (max-width: $size-l) {
+      left: -40px;
+    }
+		@media (max-width: $size-s) {
+      display: none;
+    }
+	}
+	&-button-next {
+		right: -60px;
+		transform: rotateY(180deg);
+		@media (max-width: $size-l) {
+      right: -40px;
+    }
+    @media (max-width: $size-s) {
+      display: none;
+    }
+	}
+	&-pagination {
+		position: static;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		padding-top: 20px;
+		@media (max-width: $size-m) {
+      padding-top: 10px;
+    }
+		&-bullet {
+			margin: 0 3px 5px 2px !important;
+			width: 10px;
+			height: 10px;
+			border-radius: 0;
+			border: 1px solid $blue-light;
+			background-color: $white;
+			opacity: 1;
+			transition: all 0.3s;
+			&-active {
+				background-color: $blue-light;
+			}
+			@media (min-width: 993px) {
+				&:hover, &:focus {
+					border-color: $blue;
+					background-color: $blue;
+				}
+			}
+			@media (max-width: $size-m) {
+				width: 20px;
+				height: 20px;
+				margin: 0 8px 10px !important;
+			}
+		}
+	}
+}
+
+/* Change Autocomplete styles in Chrome*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: $black;
+  transition: background-color 5000s ease-in-out 0s;
+}
